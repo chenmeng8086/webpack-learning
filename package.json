@@ -1,0 +1,16 @@
+{
+  "name": "wpk-item",
+  "version": "1.0.0",
+  "description": "学习webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --entry ./src/js/main.js --output ./dist/bundle.js",
+    "build": "webpack --watch"
+  },
+  "author": "cm",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

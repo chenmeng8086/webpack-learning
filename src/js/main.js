@@ -1,0 +1,5 @@
+require('../css/style.css')
+const $ = require('jquery')
+document.write('<div>今天星期日</div>')
+$('div').html('<div>今天休息，后天星期二</div>')
+$('div').css({border: '1px red solid'})
